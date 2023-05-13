@@ -1,0 +1,31 @@
+:root {
+  font-variant-ligatures: none;
+}
+
+.platform-linux,
+:host-context(.platform-linux) {
+  --monospace-font-size: 11px !important;
+  --monospace-font-family: "Fira Code D", monospace !important;
+  --source-code-font-size: 11px !important;
+  --source-code-font-family: "Fira Code D", monospace !important;
+}
+
+:host-context(.platform-linux) .monospace,
+:host-context(.platform-linux) .source-code,
+.platform-linux .monospace,
+.platform-linux .source-code {
+  font-size: 11px !important;
+  font-family: "Fira Code D", monospace !important;
+}
+
+.monospace,
+.source-code {
+  font-size: 11px !important;
+  font-family: "Fira Code D", monospace !important;
+}
+
+::shadow .monospace,
+::shadow .source-code {
+  font-size: 11px !important;
+  font-family: "Fira Code D", monospace !important;
+}
