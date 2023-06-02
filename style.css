@@ -4,9 +4,9 @@
 
 .platform-linux,
 :host-context(.platform-linux) {
-  --monospace-font-size: 11px !important;
+  --monospace-font-size: 12px !important;
   --monospace-font-family: "FIra Mono", monospace !important;
-  --source-code-font-size: 11px !important;
+  --source-code-font-size: 12px !important;
   --source-code-font-family: "FIra Mono", monospace !important;
 }
 
@@ -14,18 +14,18 @@
 :host-context(.platform-linux) .source-code,
 .platform-linux .monospace,
 .platform-linux .source-code {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-family: "FIra Mono", monospace !important;
 }
 
 .monospace,
 .source-code {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-family: "FIra Mono", monospace !important;
 }
 
 ::shadow .monospace,
 ::shadow .source-code {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-family: "FIra Mono", monospace !important;
 }
