@@ -5,9 +5,9 @@
 .platform-linux,
 :host-context(.platform-linux) {
   --monospace-font-size: 1em !important;
-  --monospace-font-family: "Source Code Pro", monospace !important;
+  --monospace-font-family: "Fira Mono", monospace !important;
   --source-code-font-size: 1em !important;
-  --source-code-font-family: "Source Code Pro", monospace !important;
+  --source-code-font-family: "Fira Mono", monospace !important;
 }
 
 :host-context(.platform-linux) .monospace,
@@ -15,17 +15,17 @@
 .platform-linux .monospace,
 .platform-linux .source-code {
   font-size: 1em !important;
-  font-family: "Source Code Pro", monospace !important;
+  font-family: "Fira Mono", monospace !important;
 }
 
 .monospace,
 .source-code {
   font-size: 1em !important;
-  font-family: "Source Code Pro", monospace !important;
+  font-family: "Fira Mono", monospace !important;
 }
 
 ::shadow .monospace,
 ::shadow .source-code {
   font-size: 1em !important;
-  font-family: "Source Code Pro", monospace !important;
+  font-family: "Fira Mono", monospace !important;
 }
