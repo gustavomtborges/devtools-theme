@@ -5,9 +5,9 @@
 .platform-linux,
 :host-context(.platform-linux) {
   --monospace-font-size: 1em !important;
-  --monospace-font-family: "Monego-Regular", monospace !important;
+  --monospace-font-family: "D2 Coding ligature", monospace !important;
   --source-code-font-size: 1em !important;
-  --source-code-font-family: "Monego-Regular", monospace !important;
+  --source-code-font-family: "D2 Coding ligature", monospace !important;
 }
 
 :host-context(.platform-linux) .monospace,
@@ -15,17 +15,17 @@
 .platform-linux .monospace,
 .platform-linux .source-code {
   font-size: 1em !important;
-  font-family: "Monego-Regular", monospace !important;
+  font-family: "D2 Coding ligature", monospace !important;
 }
 
 .monospace,
 .source-code {
   font-size: 1em !important;
-  font-family: "Monego-Regular", monospace !important;
+  font-family: "D2 Coding ligature", monospace !important;
 }
 
 ::shadow .monospace,
 ::shadow .source-code {
   font-size: 1em !important;
-  font-family: "Monego-Regular", monospace !important;
+  font-family: "D2 Coding ligature", monospace !important;
 }
